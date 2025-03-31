@@ -11,6 +11,8 @@ int main() {
     float PIB01, PIB02;
     int num_pontos_tur_01, num_pontos_tur_02;
 
+    printf("carta01:\n");
+
 
     printf("Digite a letra do  estado01:\n");
     scanf("%c",&estado01);
@@ -34,7 +36,7 @@ int main() {
     scanf("%d",&num_pontos_tur_01 );
 
 
-
+    printf("carta02:\n");
 
 
     printf("digite a letra do estado02:\n");
