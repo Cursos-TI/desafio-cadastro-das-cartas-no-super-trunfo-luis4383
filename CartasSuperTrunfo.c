@@ -6,13 +6,34 @@ int main() {
     char estado01, estado02;
     int codigodacarta01, codigodacarta02;
     char cidadeA, cidadeB[50];
-    int  populacao01, populacao02;
+    float  populacao01 , populacao02;
     float area01, area02;
+    float densidade01, densidade02;
+    
+    printf ("digite a populacao01:\n");
+    scanf ("%f", &populacao01);
+
+    printf("digite area01:\n");
+    scanf("%f" , &area01);
+
+    densidade01 = populacao01 / area01;
+    
+    printf("Densidade populacional 01: %.2f\n", densidade01);
+
+    printf ("digite a populacao02:\n");
+    scanf ("%f", &populacao02);
+
+    printf("digite area02:\n");
+    scanf("%f" , &area02);
+
+    densidade02 = populacao02 / area02;
+    
+    printf("Densidade populacional 02: %.2f\n", densidade02);
+
     float PIB01, PIB02;
     int num_pontos_tur_01, num_pontos_tur_02;
 
     printf("carta01:\n");
-
 
     printf("Digite a letra do  estado01:\n");
     scanf("%c",&estado01);
@@ -35,9 +56,7 @@ int main() {
     printf("numeros de pontos turisticos01:\n");
     scanf("%d",&num_pontos_tur_01 );
 
-
     printf("carta02:\n");
-
 
     printf("digite a letra do estado02:\n");
     scanf(" %c",&estado02);
