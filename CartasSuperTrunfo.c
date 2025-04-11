@@ -55,7 +55,7 @@ int main() {
     //    calculo do super poder carta 01
     superPoder01 = (float)populacao01 + area01 + PIB01 + num_pontos_tur_01 + PIBperCapita01 + (1.0f / densidade01);
 
-    //calculo super poder carta 02
+    // calculo super poder carta 02
     superPoder02 = (float)populacao02 + area02 + PIB02 + num_pontos_tur_02 + PIBperCapita02 + (1.0f / densidade02);
 
     printf("\n--- Comparacao das Cartas ---\n");
