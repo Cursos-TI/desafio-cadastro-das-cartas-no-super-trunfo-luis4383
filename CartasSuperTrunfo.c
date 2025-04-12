@@ -11,6 +11,8 @@ int main() {
     float PIB01, PIB02;
     int num_pontos_tur_01, num_pontos_tur_02;
     float superPoder01, superPoder02;
+    unsigned int carta01, carta002;
+
     // entrada de dados carta 01
     printf("carta01:\n");
     printf("Digite a letra do estado01:\n");
@@ -81,5 +83,19 @@ int main() {
    // comparacao da carta vencedora
     printf("Super Poder: Carta 1 vence? %d (%.2f > %.2f)\n", superPoder01 > superPoder02, superPoder01, superPoder02);
 
+    if(carta01< carta002){
+        printf("carta01 parabens venceu\n");}
+    else{
+        printf("carta01 infelizmente perdeu");}
+    
+
+    
+
+
+
     return 0;
+
+
+
+
 }
